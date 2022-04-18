@@ -3,6 +3,7 @@ import Botao from '@/components/Botao.vue';
 import { ref } from 'vue';
 
 const mostraModal = ref(false);
+
 </script>
 
 <template>

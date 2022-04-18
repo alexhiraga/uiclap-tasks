@@ -1,0 +1,47 @@
+[
+    {
+        "value" : 1,
+        "label" : "Item 1",
+        "icon" : "mdi-numeric-1-box-outline"
+    },
+    {
+        "value" : 2,
+        "label" : "Item 2",
+        "icon" : "mdi-numeric-2-box-outline"
+    },
+    {
+        "value" : 3,
+        "label" : "Item 3",
+        "icon" : "mdi-numeric-3-box-outline"
+    },
+    {
+        "value" : 4,
+        "label" : "Item 4",
+        "icon" : "mdi-numeric-4-box-outline"
+    },
+    {
+        "value" : 5,
+        "label" : "Item 5",
+        "icon" : "mdi-numeric-5-box-outline"
+    },
+    {
+        "value" : 6,
+        "label" : "Item 6",
+        "icon" : "mdi-numeric-6-box-outline"
+    },
+    {
+        "value" : 7,
+        "label" : "Item 7",
+        "icon" : "mdi-numeric-7-box-outline"
+    },
+    {
+        "value" : 8,
+        "label" : "Item 8",
+        "icon" : "mdi-numeric-8-box-outline"
+    },
+    {
+        "value" : 9,
+        "label" : "Item 9",
+        "icon" : "mdi-numeric-9-box-outline"
+    }
+]
