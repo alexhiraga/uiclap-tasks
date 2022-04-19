@@ -10,6 +10,7 @@ const mostraModal = ref(false);
     Sobre:
     <Botao label="Info" class="is-info" @click="mostraModal=true"></Botao>
 
+
     <div class="modal" :class="{'is-active' : mostraModal}">
         <div class="modal-background"></div>
         <div class="modal-content">

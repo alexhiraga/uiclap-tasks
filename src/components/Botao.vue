@@ -2,7 +2,10 @@
 const props = defineProps({
     icon: String,
     label: String
-})
+});
+
+// const emits = defineEmits(['clique']);
+
 </script>
 <template>
     <button class="button">
