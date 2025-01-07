@@ -1,27 +1,23 @@
 <script setup lang="ts">
 import Botao from '@/components/Botao.vue';
+import Modal from '../components/Modal.vue'
 import { ref } from 'vue';
+import Message from '@/components/Message.vue';
+import { MessageClass } from '@/types/MessageClasses';
 
-const mostraModal = ref(false);
+const showModal = ref(false);
 
 </script>
 
 <template>
     Sobre:
-    <Botao label="Info" class="is-info" @click="mostraModal=true"></Botao>
-
-
-    <div class="modal" :class="{'is-active' : mostraModal}">
-        <div class="modal-background"></div>
-        <div class="modal-content">
-            <div class="message is-info">
-                <div class="message-body">
+    <Botao label="Info" class="is-info" @click="showModal=true"></Botao>
+    
+    <Modal v-if="showModal" @close="showModal=false">
+        <Message :messageClass=MessageClass.INFO>
             Algumas informações sobre o app??
+        </Message>
+    </Modal>
 
-                </div>
-            </div>
-        </div>
-        <button class="modal-close is-large" aria-label="close" @click="mostraModal=false"></button>
-    </div>
 
 </template>

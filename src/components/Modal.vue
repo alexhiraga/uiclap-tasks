@@ -1,10 +1,24 @@
+<script setup lang="ts">
+import { defineEmits } from 'vue';
+
+const emit = defineEmits<{
+    (event: 'close'): void;
+}>();
+
+const closeModal = () => {
+    emit('close');
+}
+
+// todo- criar defineprops para messageclass
+</script>
+
 <template>
 
-    <div class="modal" >
+    <div class="modal is-active">
         <div class="modal-background"></div>
         <div class="modal-content">
-           <slot></slot>
+            <slot></slot>
         </div>
-        <button class="modal-close is-large" aria-label="close"></button>
+        <button class="modal-close is-large" aria-label="close" @click="closeModal"></button>
     </div>
 </template>

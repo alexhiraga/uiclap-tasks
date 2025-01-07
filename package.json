@@ -10,7 +10,11 @@
     "css-build": "node-sass --omit-source-map-url src/sass/main.scss src/assets/css/main.css"
   },
   "dependencies": {
+    "@jamescoyle/vue-icon": "^0.1.2",
+    "@mdi/font": "^7.4.47",
+    "@mdi/js": "^7.4.47",
     "bulma": "^0.9.3",
+    "mdi-vue": "^3.0.13",
     "node-sass": "^7.0.1",
     "pinia": "^2.0.13",
     "sass": "^1.50.0",
