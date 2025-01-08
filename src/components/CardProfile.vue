@@ -34,7 +34,7 @@
       <p>
         Web developer, mechanical engineer and <i>"designer"</i>
         <br />
-        I like playing CS2, drift games, watching anime and look for cars to buy without having any money.
+        I like playing CS2, drift games, watching anime and looking for cars to buy without having any money.
       </p>
 
       <div class="social-icons">

@@ -167,3 +167,55 @@ nav {
     }
   }
 }
+
+.about-view-wrapper {
+  background-color: white;
+  border-radius: 8px;
+  padding: 30px;
+
+  h1 {
+    text-align: center;
+  }
+
+  .projects {
+    display: grid;
+    gap: 30px;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    div {
+      flex: 1;
+    }
+
+    @media(max-width: 1024px) {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    @media(max-width: 768px) {
+      grid-template-columns: 1fr;
+    } 
+  }
+
+}
+
+.project-card-wrapper {
+  .image img {
+    object-fit: cover;
+    max-height: 143px;
+  }
+
+  .content, figure {
+    margin: 0!important;
+    cursor: pointer;
+
+    &:hover {
+      transition: all 0.3s ease-in-out;
+      filter: opacity(.85);
+    }
+  }
+
+  .modal-content img {
+    object-fit: cover;
+    width: 100%;
+  }
+}

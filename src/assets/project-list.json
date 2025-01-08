@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "name": "Github Blog",
+    "description": "Github user's repos consulting website.",
+    "stacks": "ReactJS, Typescript, TailwindCSS",
+    "imageUrl": "https://alexhiraga.com/screens/github-blog.jpg",
+    "projectUrl": "https://alexhiraga.github.io/github-blog-react-ts/"
+  },
+  {
+    "id": 2,
+    "name": "To-do list",
+    "description": "Task manager, to do list.",
+    "stacks": "ReactJS, Typescript, TailwindCSS",
+    "imageUrl": "https://alexhiraga.com/screens/to-do.jpg",
+    "projectUrl": "https://alexhiraga.github.io/01-todolist-react-ts/"
+  },
+  {
+    "id": 3,
+    "name": "Catopedia",
+    "description": "Cat catalog app",
+    "stacks": "NextJS, Typescript, TailwindCSS",
+    "imageUrl": "https://i.imgur.com/khPaDYa.png",
+    "projectUrl": "https://alexhiraga.github.io/catopedia/"
+  },
+  {
+    "id": 4,
+    "name": "Marketing APP",
+    "description": "An application for Instagram's posting management.",
+    "stacks": "VueJS, Bootstrap, NodeJS, ExpressJS, PostgreSQL, KnexJS",
+    "imageUrl": "https://alexhiraga.com/screens/marketing-app.png",
+    "projectUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7049393362700767233/"
+  }
+]
