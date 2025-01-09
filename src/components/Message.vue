@@ -7,7 +7,7 @@ const props = defineProps<{
 </script>
 
 <template>
-  <div :class="props.messageClass + ' message'">
+  <div :class="props.messageClass + ' message message-wrapper'">
     <div class="message-body">
       <slot></slot>
     </div>
