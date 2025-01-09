@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Javascript",
+    "imageUrl": "https://alexhiraga.com/logos/javascript-logo.png"
+  },
+  {
+    "name": "HTML5",
+    "imageUrl": "https://alexhiraga.com/logos/html5-logo.png"
+  },
+  {
+    "name": "CSS3",
+    "imageUrl": "https://alexhiraga.com/logos/css3-logo.png"
+  },
+  {
+    "name": "ReactJS",
+    "imageUrl": "https://alexhiraga.com/logos/reactjs-logo.png"
+  },
+  {
+    "name": "NextJS",
+    "imageUrl": "https://alexhiraga.com/logos/nextjs-logo.png"
+  },
+  {
+    "name": "TailwindCSS",
+    "imageUrl": "https://alexhiraga.com/logos/tailwindcss-logo.svg"
+  },
+  {
+    "name": "Typescript",
+    "imageUrl": "https://alexhiraga.com/logos/typescript-logo.png"
+  },
+  {
+    "name": "VueJS",
+    "imageUrl": "https://alexhiraga.com/logos/vuejs-logo.png"
+  },
+  {
+    "name": "Java",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/pt/thumb/3/30/Java_programming_language_logo.svg/1200px-Java_programming_language_logo.svg.png"
+  },
+  {
+    "name": "Springboot",
+    "imageUrl": "https://img.icons8.com/color/600/spring-logo.png"
+  },
+  {
+    "name": "Bootstrap",
+    "imageUrl": "https://alexhiraga.com/logos/bootstrap-logo.png"
+  },
+  {
+    "name": "NodeJS",
+    "imageUrl": "https://alexhiraga.com/logos/nodejs-logo.png"
+  },
+  {
+    "name": "Wordpress",
+    "imageUrl": "https://alexhiraga.com/logos/wordpress-logo.png"
+  },
+  {
+    "name": "Elementor",
+    "imageUrl": "https://alexhiraga.com/logos/elementor-logo.webp"
+  },
+  {
+    "name": "Photoshop",
+    "imageUrl": "https://alexhiraga.com/logos/photoshop-logo.png"
+  }
+]

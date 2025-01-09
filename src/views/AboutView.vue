@@ -6,7 +6,8 @@ import Message from '@/components/Message.vue';
 import { MessageClass } from '@/types/MessageClasses';
 import projects from '@/assets/project-list.json';
 import ProjectCard from '@/components/ProjectCard.vue';
-
+import stacks from '@/assets/stacks-list.json';
+import IconBox from '@/components/IconBox.vue';
 // const showModal = ref(false);
 
 </script>
@@ -26,6 +27,12 @@ import ProjectCard from '@/components/ProjectCard.vue';
     <div class="projects">
       <div v-for="project in projects" :key="project.id">
         <ProjectCard :project="project" />
+      </div>
+    </div>
+
+    <div class="stacks">
+      <div v-for="stack in stacks" :key="stack.name">
+        <IconBox :stack="stack" />
       </div>
     </div>
 

@@ -2,7 +2,6 @@
 import { ref } from 'vue';
 import Modal from './Modal.vue';
 
-
 const props = defineProps<{
   project: {
     id: number;

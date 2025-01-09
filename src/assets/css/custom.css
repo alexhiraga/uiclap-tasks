@@ -195,6 +195,39 @@ nav {
       grid-template-columns: 1fr;
     } 
   }
+  
+  .stacks {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0.5rem;
+    margin-top: 45px;
+    
+    @media(max-width: 1215px) {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+  }
+
+  .box {
+    width: 60px;
+    height: 60px;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+      transform: scale(1.2);
+    }
+
+    img {
+      object-fit: contain;
+    }
+  }
+
+  
 
 }
 
