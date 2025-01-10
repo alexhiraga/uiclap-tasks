@@ -1,46 +1,48 @@
-# uiclap-tasks
+# UICLAP task
 
-This template should help get you started developing with Vue 3 in Vite.
+This project is an UICLAP task built with Vue.js 3, featuring three main pages: Home, About, and List.
 
-## Recommended IDE Setup
+## Features
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.vscode-typescript-vue-plugin).
+- **Home Page**: Contains personal information, contact details, social media links, and a brief description.
+- **About Page**: Lists completed projects and technologies learned.
+- **List Page**: Displays an interactive list of numbers from 1 to 9 with drag-and-drop functionality and buttons to change item colors.
 
-## Type Support for `.vue` Imports in TS
+## Installation
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+NPM version: 6.14.18
+Node version: 14.21.3
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+To run this project locally, follow these steps:
 
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+1. **Clone the repository**:
 
-## Customize configuration
+   ```
+   git clone https://github.com/alexhiraga/uiclap-tasks.git
+   ```
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+2. **Install dependencies:**:
 
-## Project Setup
+   ```
+   npm install
+   ```
 
-```sh
-npm install
-```
+3. **Start the development server**:
 
-### Compile and Hot-Reload for Development
+   ```
+   npm run dev
+   ```
 
-```sh
-npm run dev
-```
+## Usage
 
-### Type-Check, Compile and Minify for Production
+- **Home Page**: Navigate to the Home page to view personal information and social media links.
+- **About Page**: Visit the About page to see a list of projects and technologies.
+- **List Page**: Go to the List page to interact with the draggable list and change item colors.
 
-```sh
-npm run build
-```
+## Technologies Used
 
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+- Vue.js 3
+- Vue Router
+- [Vue.Draggable](https://github.com/SortableJS/vue.draggable.next) for drag-and-drop functionality
+- Bulma CSS framework for styling
+- Material Design Icon for custom icons
