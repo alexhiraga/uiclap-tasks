@@ -1,8 +1,7 @@
 <script setup lang="ts">
-import { MessageClass } from '@/types/MessageClasses';
 
 const props = defineProps<{
-  messageClass: MessageClass
+  messageClass: string
 }>();
 </script>
 
