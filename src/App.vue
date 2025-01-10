@@ -5,7 +5,6 @@ import Navbar from './components/Navbar.vue';
 
 <template>
   <header>
-
     <div class="container box my-5">
       <Navbar />
     </div>

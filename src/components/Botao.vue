@@ -4,8 +4,6 @@ const props = defineProps({
     label: String
 });
 
-// const emits = defineEmits(['clique']);
-
 </script>
 <template>
     <button class="button">
